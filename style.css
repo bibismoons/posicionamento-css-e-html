@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(206, 245, 243);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 2px 2px black;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: bolder;
+    color: rgb(182, 183, 243);
+    background-color: unset;
+}
+
+header {
+    background-color: rgb(231, 221, 241);
+    height: 100px;
+    padding: 10px;
+}
+
+main {
+    background-color: rgb(245, 223, 234);
+    height: 500px;
+    padding: 10px;
+}
+
+aside {
+    background-color: rgb(201, 245, 227);
+    height: 200px;
+    width: 50%;
+    padding: 10px;
+    float: right;
+    margin-top: 10px;
+}
+
+#aside2 {
+    background-color: rgb(243, 222, 198);
+    height: 100px;
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+
+footer {
+    background-color: rgb(241, 239, 205);
+    height: 100px;
+    padding: 10px;
+}
+
+section {
+    background-color: inherit;
+    height: 100px;
+    padding: inherit;
+}
+
+.item {
+    border-radius: 5px;
+    border: 1px solid white;
+    width: fit-content;
+    background-color: unset;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+   /* height: 100px;*/
+    font-weight: bolder;
+}
+
+.container {
+    padding: 10px;
+    height: 100%;
+    background-color: rgb(179, 243, 240);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.item:nth-child(1) {
+    background-color: rgb(214, 207, 211);
+    align-self: flex-start;
+    /* Usada só para os items*/
+    color: white;
+}
+
+.item:nth-child(2) {
+    background-color: rgb(214, 207, 211);
+    color: white;
+}
+
+.item:nth-child(3) {
+    background-color: rgb(214, 207, 211);
+    color: white;
+}
+
+.item:nth-child(4) {
+    background-color: rgb(214, 207, 211);
+    color: white;
+}
+
+.item:nth-child(5) {
+    background-color: rgb(214, 207, 211);
+    color: white;
+}
+
+.item:nth-child(6) {
+    background-color: rgb(214, 207, 211);
+    color: white;
+}
